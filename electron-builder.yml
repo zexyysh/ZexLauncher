@@ -18,6 +18,7 @@ win:
   target: 
     - target: 'nsis'
       arch: 'x64'
+  forceCodeSigning: false
 
 # Windows Installer Configuration
 nsis:

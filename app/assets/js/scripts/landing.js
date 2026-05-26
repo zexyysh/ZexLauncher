@@ -620,10 +620,16 @@ async function dlAsync(login = true) {
             setLaunchDetails(Lang.queryJS('landing.dlAsync.doneEnjoyServer'))
 
             // Init Discord Hook
-            if(distro.rawDistribution.discord != null && serv.rawServer.discord != null){
-                DiscordWrapper.initRPC(distro.rawDistribution.discord, serv.rawServer.discord)
-                hasRPC = true
-            }
+            const discordGenSettings = (distro.rawDistribution.discord != null)
+                ? distro.rawDistribution.discord
+                : { clientId: '1508823030053343402', smallImageKey: 'seal-circle', smallImageText: 'Zex Launcher' }
+            const discordServSettings = (serv.rawServer.discord != null)
+                ? serv.rawServer.discord
+                : { shortId: serv.rawServer.name || 'Zex Sunucusu', largeImageKey: 'seal-circle', largeImageText: 'Zex Launcher' }
+            const mcVersion = serv.rawServer.minecraftVersion || ''
+            DiscordWrapper.initRPC(discordGenSettings, discordServSettings, mcVersion)
+            hasRPC = true
+
 
             proc.on('close', (code, signal) => {
                 loggerLaunchSuite.info('Game process closed.')

@@ -10,18 +10,26 @@ const Lang = require('./langloader')
 let client
 let activity
 
-exports.initRPC = function(genSettings, servSettings, initialDetails = Lang.queryJS('discord.waiting')){
+const ZEX_CLIENT_ID = '1508823030053343402'
+
+exports.initRPC = function(genSettings, servSettings, minecraftVersion, initialDetails = 'Zex Launcher'){
     client = new Client({ transport: 'ipc' })
 
     activity = {
         details: initialDetails,
-        state: Lang.queryJS('discord.state', {shortId: servSettings.shortId}),
-        largeImageKey: servSettings.largeImageKey,
-        largeImageText: servSettings.largeImageText,
-        smallImageKey: genSettings.smallImageKey,
-        smallImageText: genSettings.smallImageText,
+        state: minecraftVersion ? `Minecraft ${minecraftVersion}` : 'Minecraft',
+        largeImageKey: servSettings.largeImageKey || 'seal-circle',
+        largeImageText: `Minecraft ${minecraftVersion || ''}`,
+        smallImageKey: genSettings.smallImageKey || 'seal-circle',
+        smallImageText: 'Zex Launcher',
         startTimestamp: new Date().getTime(),
-        instance: false
+        instance: false,
+        buttons: [
+            {
+                label: '🛒 Katıl',
+                url: 'https://www.itemsatis.com/profil/zexyshop.html'
+            }
+        ]
     }
 
     client.on('ready', () => {
@@ -29,7 +37,7 @@ exports.initRPC = function(genSettings, servSettings, initialDetails = Lang.quer
         client.setActivity(activity)
     })
     
-    client.login({clientId: genSettings.clientId}).catch(error => {
+    client.login({clientId: ZEX_CLIENT_ID}).catch(error => {
         if(error.message.includes('ENOENT')) {
             logger.info('Unable to initialize Discord Rich Presence, no client detected.')
         } else {
