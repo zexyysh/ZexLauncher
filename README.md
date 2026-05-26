@@ -63,4 +63,6 @@ Bu işlem bittiğinde, proje klasörünün içinde `dist` adında yeni bir klas�
 
 * Bu proje MIT Lisansı altındadır.
 * Geliştirici/Özelleştiren: Zexy (https://github.com/zexyysh)
+* Orijinal Alt Yapı: Helios Launcher (Daniel Scalzi)
+
 
