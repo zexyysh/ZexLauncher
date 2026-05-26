@@ -1,0 +1,20 @@
+# Custom Language File for Zex Launcher
+
+[ejs.app]
+title = "Zex Launcher"
+
+[ejs.landing]
+mediaGitHubURL = "https://github.com/zexyysh"
+mediaXURL = "#"
+mediaInstagramURL = "#"
+mediaYouTubeURL = "#"
+mediaDiscordURL = "https://discord.gg/nJs2kbHcT5"
+
+[ejs.settings]
+sourceGithubLink = "https://github.com/zexyysh"
+supportLink = "https://github.com/zexyysh"
+
+[ejs.welcome]
+welcomeHeader = "ZEX LAUNCHER'A HOŞGELDİNİZ"
+welcomeDescription = "Zex Launcher, Minecraft deneyiminizi bir üst seviyeye taşımak için tasarlanmış özel bir launcher'dır. Modlu sunuculara kolayca bağlanın, tüm modlar ve güncellemeler otomatik olarak yönetilsin. Performans odaklı, şık ve kullanıcı dostu arayüzümüzle oyun keyfinizi artırın."
+welcomeDescCTA = "Maceraya başlamak için sadece birkaç tık uzaktasınız."

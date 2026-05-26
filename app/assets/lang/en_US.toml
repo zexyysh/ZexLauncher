@@ -1,0 +1,344 @@
+[ejs.landing]
+updateAvailableTooltip = "Güncelleme Mevcut"
+usernamePlaceholder = "Kullanıcı Adı"
+usernameEditButton = "Düzenle"
+settingsTooltip = "Ayarlar"
+serverStatus = "SUNUCU"
+serverStatusPlaceholder = "ÇEVRİMDIŞI"
+mojangStatus = "MOJANG DURUMU"
+mojangStatusTooltipTitle = "Servisler"
+mojangStatusNETitle = "Zorunlu&nbsp;Olmayan"
+newsButton = "HABERLER"
+launchButton = "OYNA"
+launchButtonPlaceholder = "&#8226; Sunucu Seçilmedi"
+launchDetails = "Lütfen bekleyin.."
+newsNavigationStatus = "{currentPage} / {totalPages}"
+newsErrorLoadSpan = "Haberler kontrol ediliyor.."
+newsErrorFailedSpan = "Haberler yüklenemedi"
+newsErrorRetryButton = "Tekrar Dene"
+newsErrorNoneSpan = "Haber Yok"
+
+[ejs.login]
+loginCancelText = "İptal"
+loginSubheader = "MINECRAFT GİRİŞ"
+loginEmailError = "* Geçersiz Değer"
+loginEmailPlaceholder = "E-POSTA VEYA KULLANICI ADI"
+loginPasswordError = "* Zorunlu"
+loginPasswordPlaceholder = "ŞİFRE"
+loginForgotPasswordLink = "https://minecraft.net/password/forgot/"
+loginForgotPasswordText = "Şifreni mi unuttun?"
+loginRememberMeText = "Beni hatırla"
+loginButtonText = "GİRİŞ YAP"
+loginNeedAccountLink = "https://minecraft.net/store/minecraft-java-edition/"
+loginNeedAccountText = "Hesabın yok mu?"
+loginPasswordDisclaimer1 = "Şifreniz doğrudan Mojang'a gönderilir ve asla depolanmaz."
+loginPasswordDisclaimer2 = "{appName}, Mojang AB ile bağlantılı değildir."
+
+[ejs.loginOptions]
+loginOptionsTitle = "Giriş Seçenekleri"
+loginWithMicrosoft = "Microsoft ile Giriş"
+loginWithMojang = "Mojang ile Giriş"
+cancelButton = "İptal"
+
+[ejs.overlay]
+serverSelectHeader = "Mevcut Sunucular"
+serverSelectConfirm = "Seç"
+serverSelectCancel = "İptal"
+accountSelectHeader = "Hesap Seçin"
+accountSelectConfirm = "Seç"
+accountSelectCancel = "İptal"
+
+[ejs.settings]
+navHeaderText = "Ayarlar"
+navAccount = "Hesap"
+navMinecraft = "Minecraft"
+navMods = "Modlar"
+navJava = "Java"
+navLauncher = "Launcher"
+navAbout = "Hakkında"
+navUpdates = "Güncellemeler"
+navDone = "Tamam"
+tabAccountHeaderText = "Hesap Ayarları"
+tabAccountHeaderDesc = "Yeni hesap ekleyin veya mevcut hesapları yönetin."
+microsoftAccount = "Microsoft"
+addMicrosoftAccount = "+ Microsoft Hesabı Ekle"
+mojangAccount = "Mojang / Offline"
+addMojangAccount = "+ Mojang Hesabı Ekle"
+minecraftTabHeaderText = "Minecraft Ayarları"
+minecraftTabHeaderDesc = "Oyun başlatma ile ilgili seçenekler."
+gameResolutionTitle = "Oyun Çözünürlüğü"
+launchFullscreenTitle = "Tam ekran modunda başlat."
+autoConnectTitle = "Başlatırken otomatik olarak sunucuya bağlan."
+launchDetachedTitle = "Oyun sürecini launcher'dan bağımsız başlat."
+launchDetachedDesc = "Oyun bağımsız değilse, launcher'ı kapatmak oyunu da kapatır."
+tabModsHeaderText = "Mod Ayarları"
+tabModsHeaderDesc = "Modları etkinleştirin veya devre dışı bırakın."
+switchServerButton = "Değiştir"
+requiredMods = "Zorunlu Modlar"
+optionalMods = "İsteğe Bağlı Modlar"
+dropinMods = "Eklenen Modlar"
+addMods = "Mod Ekle"
+dropinRefreshNote = "(Yenilemek için F5)"
+shaderpacks = "Gölgelendirici Paketleri"
+shaderpackDesc = "Gölgelendiricileri etkinleştirin veya devre dışı bırakın. Gölgelendiriciler yalnızca güçlü donanımlarda düzgün çalışır. Buraya özel paketler ekleyebilirsiniz."
+selectShaderpack = "Gölgelendirici Seçin"
+tabJavaHeaderText = "Java Ayarları"
+tabJavaHeaderDesc = "Java yapılandırmasını yönetin (gelişmiş)."
+memoryTitle = "Bellek"
+maxRAM = "Maksimum RAM"
+minRAM = "Minimum RAM"
+memoryDesc = "Önerilen minimum RAM 3 gigabayttır. Minimum ve maksimum değerleri aynı yapmak gecikmeyi azaltabilir."
+memoryTotalTitle = "Toplam"
+memoryAvailableTitle = "Kullanılabilir"
+javaExecutableTitle = "Java Çalıştırılabilir Dosyası"
+javaExecSelDialogTitle = "Java Çalıştırılabilir Dosyasını Seçin"
+javaExecSelButtonText = "Dosya Seç"
+javaExecDesc = "Java çalıştırılabilir dosyası oyun başlatılmadan önce doğrulanır."
+javaPathDesc = "Yol <strong>{pathSuffix}</strong> ile bitmelidir."
+jvmOptsTitle = "Ek JVM Seçenekleri"
+jvmOptsDesc = "Çalışma zamanında JVM'ye sağlanacak seçenekler. <em>-Xms</em> ve <em>-Xmx</em> dahil edilmemelidir."
+launcherTabHeaderText = "Launcher Ayarları"
+launcherTabHeaderDesc = "Launcher ile ilgili seçenekler."
+allowPrereleaseTitle = "Ön Sürüm Güncellemelerine İzin Ver."
+allowPrereleaseDesc = "Ön sürümler, tam olarak test edilmemiş veya entegre edilmemiş yeni özellikler içerir.<br>Ön sürüm kullanıyorsanız bu her zaman etkin olacaktır."
+dataDirectoryTitle = "Veri Dizini"
+selectDataDirectory = "Veri Dizinini Seçin"
+chooseFolder = "Klasör Seç"
+dataDirectoryDesc = "Tüm oyun dosyaları ve yerel Java kurulumları veri dizininde saklanır.<br>Ekran görüntüleri ve dünya kayıtları, ilgili sunucu yapılandırması için örnek klasöründe saklanır."
+aboutTabHeaderText = "Hakkında"
+aboutTabHeaderDesc = "Mevcut sürüm için bilgileri ve sürüm notlarını görüntüleyin."
+aboutTitle = "{appName}"
+stableRelease = "Kararlı Sürüm"
+versionText = "Sürüm "
+sourceGithub = "Zexy"
+support = "Destek"
+devToolsConsole = "Geliştirici Konsolu"
+releaseNotes = "Sürüm Notları"
+changelog = "Değişiklik Günlüğü"
+noReleaseNotes = "Sürüm Notu Yok"
+viewReleaseNotes = "Sürüm Notlarını Görüntüle"
+launcherUpdatesHeaderText = "Launcher Güncellemeleri"
+launcherUpdatesHeaderDesc = "Launcher için güncellemeleri indirin, kurun ve inceleyin."
+checkForUpdates = "Güncellemeleri Kontrol Et"
+whatsNew = "Yenilikler"
+updateReleaseNotes = "Güncelleme Sürüm Notları"
+
+[ejs.waiting]
+waitingText = "Microsoft bekleniyor.."
+
+[ejs.welcome]
+continueButton = "DEVAM ET"
+
+
+[js.discord]
+waiting = "Zex Launcher Yükleniyor.."
+state = "Sunucu: {shortId}"
+
+[js.index]
+microsoftLoginTitle = "Microsoft Girişi"
+microsoftLogoutTitle = "Microsoft Çıkışı"
+
+[js.login]
+login = "GİRİŞ YAP"
+loggingIn = "GİRİŞ YAPILIYOR"
+success = "BAŞARILI"
+tryAgain = "Tekrar Dene"
+
+[js.login.error]
+invalidValue = "* Geçersiz Değer"
+requiredValue = "* Zorunlu"
+
+[js.login.error.unknown]
+title = "Giriş Sırasında Bilinmeyen Hata"
+desc = "Bilinmeyen bir hata oluştu. Ayrıntılar için konsolu kontrol edin."
+
+[js.landing.launch]
+pleaseWait = "Lütfen bekleyin.."
+failureTitle = "Başlatma Sırasında Hata"
+failureText = "Ayrıntılar için konsolu (CTRL + Shift + i) kontrol edin."
+okay = "Tamam"
+
+[js.landing.selectedAccount]
+noAccountSelected = "Hesap Seçilmedi"
+
+[js.landing.selectedServer]
+noSelection = "Sunucu Seçilmedi"
+loading = "Yükleniyor.."
+
+[js.landing.serverStatus]
+server = "SUNUCU"
+offline = "ÇEVRİMDIŞI"
+players = "OYUNCULAR"
+
+[js.landing.systemScan]
+checking = "Sistem bilgisi kontrol ediliyor.."
+noCompatibleJava = "Uyumlu Java<br>Kurulumu Bulunamadı"
+installJavaMessage = "Minecraft'ı başlatmak için 64-bit Java {major} kurulumuna ihtiyacınız var. Sizin için bir kopya kurmamızı ister misiniz?"
+installJava = "Java Kur"
+installJavaManually = "Manuel Kur"
+javaDownloadPrepare = "Java İndirme Hazırlanıyor.."
+javaDownloadFailureTitle = "Java İndirme Sırasında Hata"
+javaDownloadFailureText = "Ayrıntılar için konsolu (CTRL + Shift + i) kontrol edin."
+javaRequired = "Java Gerekli<br>Başlatmak İçin"
+javaRequiredMessage = 'Başlatmak için geçerli bir x64 Java {major} kurulumu gereklidir.<br><br>Java yı manuel olarak nasıl kuracağınızı öğrenmek için lütfen yardım sayfamıza bakın.'
+javaRequiredDismiss = "Anladım"
+javaRequiredCancel = "Geri Dön"
+
+[js.landing.downloadJava]
+findJdkFailure = "OpenJDK dağıtımı bulunamadı."
+javaDownloadCorruptedError = "İndirilen JDK'nın hash değeri hatalı, dosya bozuk olabilir."
+extractingJava = "Java Ayıklanıyor"
+javaInstalled = "Java Kuruldu!"
+
+[js.landing.dlAsync]
+loadingServerInfo = "Sunucu bilgileri yükleniyor.."
+fatalError = "Kritik Hata"
+unableToLoadDistributionIndex = "Dağıtım dizini yüklenemedi. Ayrıntılar için konsolu (CTRL + Shift + i) kontrol edin."
+pleaseWait = "Lütfen bekleyin.."
+errorDuringLaunchTitle = "Başlatma Sırasında Hata"
+seeConsoleForDetails = "Ayrıntılar için konsolu (CTRL + Shift + i) kontrol edin."
+validatingFileIntegrity = "Dosya bütünlüğü doğrulanıyor.."
+errorDuringFileVerificationTitle = "Dosya Doğrulama Sırasında Hata"
+downloadingFiles = "Dosyalar indiriliyor.."
+errorDuringFileDownloadTitle = "Dosya İndirme Sırasında Hata"
+preparingToLaunch = "Başlatmaya hazırlanıyor.."
+launchingGame = "Oyun başlatılıyor.."
+launchWrapperNotDownloaded = "Ana dosya (LaunchWrapper) düzgün indirilemedi. Bu nedenle oyun başlatılamıyor.<br><br>Bu sorunu çözmek için antivirüs yazılımınızı geçici olarak kapatın ve oyunu tekrar başlatın."
+doneEnjoyServer = "Tamamlandı. İyi oyunlar!"
+checkConsoleForDetails = "Ayrıntılar için konsolu (CTRL + Shift + i) kontrol edin."
+
+[js.landing.news]
+checking = "Haberler kontrol ediliyor"
+
+[js.landing.discord]
+loading = "Oyun yükleniyor.."
+joining = "Sunucuya bağlanılıyor!"
+joined = "Dünyayı keşfediyor!"
+
+[js.overlay]
+dismiss = "Kapat"
+
+[js.settings.fileSelectors]
+executables = "Çalıştırılabilir Dosyalar"
+allFiles = "Tüm Dosyalar"
+
+[js.settings.mstfLogin]
+errorTitle = "Bir Sorun Oluştu"
+errorMessage = "Microsoft kimlik doğrulaması başarısız oldu. Lütfen tekrar deneyin."
+okButton = "Tamam"
+
+[js.settings.mstfLogout]
+errorTitle = "Bir Sorun Oluştu"
+errorMessage = "Microsoft çıkışı başarısız oldu. Lütfen tekrar deneyin."
+okButton = "Tamam"
+
+[js.settings.authAccountSelect]
+selectButton = "Hesabı Seç"
+selectedButton = "Seçili Hesap &#10004;"
+
+[js.settings.authAccountLogout]
+lastAccountWarningTitle = "Uyarı<br>Bu Son Hesabınız"
+lastAccountWarningMessage = "Launcher'ı kullanmak için en az bir hesaba giriş yapmanız gerekir. Çıkış yaptıktan sonra tekrar giriş yapmanız gerekecektir.<br><br>Çıkış yapmak istediğinizden emin misiniz?"
+confirmButton = "Eminim"
+cancelButton = "İptal"
+
+[js.settings.authAccountPopulate]
+username = "Kullanıcı Adı"
+uuid = "UUID"
+selectAccount = "Hesabı Seç"
+selectedAccount = "Seçili Hesap ✓"
+logout = "Çıkış Yap"
+
+[js.settings.dropinMods]
+removeButton = "Kaldır"
+deleteFailedTitle = "Silinemedi<br>Mod: {fullName}"
+deleteFailedMessage = "Dosyanın kullanılmadığından emin olun ve tekrar deneyin."
+failedToggleTitle = "Bir veya Daha Fazla Mod<br>Değiştirilemedi"
+okButton = "Tamam"
+
+[js.settings.serverListing]
+mainServer = "Ana Sunucu"
+
+[js.settings.java]
+selectedJava = "Seçili: Java {version} ({vendor})"
+invalidSelection = "Geçersiz Seçim"
+requiresJava = "Java {major} x64 gerektirir."
+availableOptions = "Java {major} için Mevcut Seçenekler (HotSpot VM)"
+
+[js.settings.about]
+preReleaseTitle = "Ön Sürüm"
+stableReleaseTitle = "Kararlı Sürüm"
+releaseNotesFailed = "Sürüm notları yüklenemedi."
+
+[js.settings.updates]
+newReleaseTitle = "Yeni Sürüm Mevcut"
+newPreReleaseTitle = "Yeni Ön Sürüm Mevcut"
+downloadingButton = "İndiriliyor.."
+downloadButton = "İndir<span style=\"font-size: 10px;color: gray;text-shadow: none !important;\">Launcher kapatıp güncelleyin.</span>"
+latestVersionTitle = "En Güncel Sürümü Kullanıyorsunuz"
+checkForUpdatesButton = "Güncellemeleri Kontrol Et"
+checkingForUpdatesButton = "Güncelleme Kontrol Ediliyor.."
+
+[js.settings.msftLogin]
+errorTitle = "Microsoft Girişi Başarısız"
+errorMessage = "Microsoft hesabınızın kimliği doğrulanamadı. Lütfen tekrar deneyin."
+okButton = "Tamam"
+
+[js.uibinder.startup]
+fatalErrorTitle = "Kritik Hata: Dağıtım Dizini Yüklenemedi"
+fatalErrorMessage = "Dağıtım dizinini indirmek için sunucularımıza bağlantı kurulamadı. Yüklenecek yerel kopya bulunamadı.<br><br>Dağıtım dizini, en güncel sunucu bilgilerini sağlayan önemli bir dosyadır. Launcher bu dosya olmadan başlatılamaz. İnternet bağlantınızı kontrol edin ve uygulamayı yeniden başlatın."
+closeButton = "Kapat"
+
+[js.uibinder.validateAccount]
+failedMessageTitle = "Giriş Yenilenemedi"
+failedMessage = "<strong>{account}</strong> hesabının girişi yenilenemedi. Lütfen başka bir hesap seçin veya tekrar giriş yapın."
+failedMessageSelectAnotherAccount = "<strong>{account}</strong> hesabının girişi yenilenemedi. Lütfen tekrar giriş yapın."
+loginButton = "Giriş Yap"
+selectAnotherAccountButton = "Başka Hesap Seç"
+
+[js.uicore.autoUpdate]
+checkingForUpdateButton = "Güncelleme Kontrol Ediliyor..."
+installNowButton = "Şimdi Kur"
+checkForUpdatesButton = "Güncellemeleri Kontrol Et"
+
+[js.auth.microsoft.error]
+noProfileTitle = "Giriş Hatası:<br>Profil Ayarlanmamış"
+noProfileDesc = "Microsoft hesabınızın henüz bir Minecraft profili yok. Oyunu yakın zamanda satın aldıysanız veya Xbox Game Pass ile kullandıysanız, profilinizi <a href=\"https://minecraft.net/\">Minecraft.net</a> üzerinden ayarlamanız gerekir."
+noXboxAccountTitle = "Giriş Hatası:<br>Xbox Hesabı Yok"
+noXboxAccountDesc = "Microsoft hesabınızla ilişkili bir Xbox hesabı bulunmuyor."
+xblBannedTitle = "Giriş Hatası:<br>Xbox Live Kullanılamıyor"
+xblBannedDesc = "Microsoft hesabınız Xbox Live'ın kullanılamadığı veya yasaklandığı bir ülkeden."
+under18Title = "Giriş Hatası:<br>Ebeveyn Onayı Gerekli"
+under18Desc = "18 yaşından küçük kullanıcıların hesapları bir yetişkin tarafından Aile grubuna eklenmelidir."
+unknownTitle = "Giriş Sırasında Bilinmeyen Hata"
+unknownDesc = "Bilinmeyen bir hata oluştu. Ayrıntılar için konsolu kontrol edin."
+
+[js.auth.mojang.error]
+methodNotAllowedTitle = "İç Hata:<br>İzin Verilmeyen Yöntem"
+methodNotAllowedDesc = "İzin verilmeyen yöntem. Lütfen bu hatayı bildirin."
+notFoundTitle = "İç Hata:<br>Bulunamadı"
+notFoundDesc = "Kimlik doğrulama sunucusu bulunamadı. Lütfen bu sorunu bildirin."
+accountMigratedTitle = "Giriş Hatası:<br>Hesap Taşındı"
+accountMigratedDesc = "Taşınmış bir hesapla giriş yapmaya çalıştınız. Hesap e-postasını kullanıcı adı olarak kullanarak tekrar deneyin."
+invalidCredentialsTitle = "Giriş Hatası:<br>Geçersiz Bilgiler"
+invalidCredentialsDesc = "Girdiğiniz e-posta veya şifre yanlış. Lütfen tekrar deneyin."
+tooManyAttemptsTitle = "Giriş Hatası:<br>Çok Fazla Deneme"
+tooManyAttemptsDesc = "Bu hesapla çok fazla giriş denemesi yapıldı. Lütfen daha sonra tekrar deneyin."
+invalidTokenTitle = "Giriş Hatası:<br>Geçersiz Token"
+invalidTokenDesc = "Sağlanan erişim token'ı geçersiz."
+tokenHasProfileTitle = "Giriş Hatası:<br>Token Profili Var"
+tokenHasProfileDesc = "Erişim token'ının zaten atanmış bir profili var."
+credentialsMissingTitle = "Giriş Hatası:<br>Bilgiler Eksik"
+credentialsMissingDesc = "Kullanıcı adı/şifre gönderilmedi veya şifre 3 karakterden kısa."
+invalidSaltVersionTitle = "Giriş Hatası:<br>Geçersiz Salt Sürümü"
+invalidSaltVersionDesc = "Geçersiz salt sürümü."
+unsupportedMediaTypeTitle = "İç Hata:<br>Desteklenmeyen Medya Türü"
+unsupportedMediaTypeDesc = "Desteklenmeyen medya türü. Lütfen bu hatayı bildirin."
+accountGoneTitle = "Giriş Hatası:<br>Hesap Taşındı"
+accountGoneDesc = "Hesap Microsoft hesabına taşınmış. Lütfen Microsoft ile giriş yapın."
+unreachableTitle = "Giriş Hatası:<br>Erişilemiyor"
+unreachableDesc = "Kimlik doğrulama sunucularına erişilemiyor. Sunucuların çevrimiçi olduğundan ve internet bağlantınızın olduğundan emin olun."
+gameNotPurchasedTitle = "Giriş Hatası:<br>Oyun Satın Alınmamış"
+gameNotPurchasedDesc = "Giriş yapmaya çalıştığınız hesap Minecraft satın almamış. <a href=\"https://minecraft.net/\">Minecraft.net</a> üzerinden satın alabilirsiniz."
+unknownErrorTitle = "Giriş Sırasında Bilinmeyen Hata"
+unknownErrorDesc = "Bilinmeyen bir hata oluştu. Ayrıntılar için konsolu kontrol edin."
